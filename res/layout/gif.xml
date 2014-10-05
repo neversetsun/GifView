@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+ 
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button android:id="@+id/static_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/btn_static" />
+        <Button android:id="@+id/one_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/btn_one" />
+        <Button android:id="@+id/loop_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/btn_loop" />
+        <Button android:id="@+id/drawable_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/btn_drawable" />
+    </LinearLayout>
+    <TextView android:id="@+id/desc"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content" 
+        android:text=""/>
+    <TextView android:id="@+id/frame_desc"
+        android:layout_width="fill_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content" 
+        android:text=""/>
+    
+    <LinearLayout
+        android:id="@+id/gif_show"
+           android:layout_margin="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+        
+    </LinearLayout>
+   
+</LinearLayout>

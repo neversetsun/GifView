@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_static">下载显示的是单帧静态gif</string>
+    <string name="str_one">循环一次gif</string>
+    <string name="str_loop">无限循环gif</string>
+    <string name="str_drawable">gifdrawable</string>
+    <string name="btn_static">静态</string>
+    <string name="btn_one">播放2次</string>
+    <string name="btn_loop">循环</string>
+    <string name="btn_drawable">Drawable</string>
+    <string name="app_name">GifView</string>
+</resources>
